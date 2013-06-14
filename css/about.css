@@ -1,0 +1,110 @@
+body {background: url("img/bodyBG.png") repeat; padding: 0 }
+
+@font-face {
+    font-family: HelveticaNeueLightItalic;
+    src: url(fonts/HelveticaNeue/HelveticaNeueLightItalic.ttf);
+}
+@font-face {
+    font-family: WisdomScript;
+    src: url(fonts/WisdomScript/WisdomScript/WisdomScript.ttf);
+}
+@font-face {
+    font-family:GothamMedium;
+    src: url(fonts/GothamMedium.ttf);
+}
+@font-face {
+    font-family:Verdana;
+    src: url(fonts/Verdana/verdana.ttf);
+}
+
+
+
+
+.wrapper { width: 1203px; margin: auto; background: url("img/wrapperBG.png") repeat; position: relative}
+
+/*Header*/
+header          { background: url("img/headerMainBg.png") repeat-x;  height: 673px; position: relative;  }
+.logo           { margin: 40px 0 23px 184px }
+nav              { float: right; margin-top:50px; margin-right: 125px }
+.logIn          { margin-left: 333px}
+.logIn a        { font-family: helvetica; font-size:  18px ; color: #ff6633; font-style: italic; text-decoration: none}
+.logIn a:hover  { text-decoration: underline}
+.menu a:hover   { color: #999999}
+.menu           { margin-top: 12px}
+.menu a         { font-family: WisdomScript; font-size: 26px; color: #333333; text-decoration: none; margin-right: 20px }
+a.last          { margin-right:0; padding-right: 0 }
+a.active        { color:#ff6633 }
+a.active:hover  { color:#ff6633}
+a.FB            { background: url("img/FB.png"); width: 37px; height: 37px; display: inline-block; position: relative; top:13px; height: 37px; margin-left: 10px}
+a.FB:hover      { background: url("img/FBAct.png");}
+a.tw            { background: url("img/tw.png"); width: 38px; height: 38px; display: inline-block; position: relative; top:13px;  margin-left: 5px }
+a.tw:hover      { background: url("img/twAct.png"); }
+
+
+/*Main*/
+
+
+.main           { background: url("img/FinansingMainBG.png") repeat; overflow: hidden; padding-bottom: 50px;  }
+.main h4        { font-family:GothamMedium; color: #ff6633; font-size: 21px; margin: 0; padding-bottom: 18px}
+.main span      { font-family: Georgia; font-style:  italic; font-size: 18px; color: #333333; display: block}
+
+.sliderImg     { height: 480px; overflow: hidden; border-bottom: 35px #151515 solid; position: relative; top: -44px; position:relative;  }
+.sliderImg img  { width: 100%}
+header:after  {  content:"";  position:absolute;  background: url("img/shadow.png"); width: 830px; height: 29px; top: 661px ; left: 87px;
+}
+
+i.sliderAct     { background: url("img/sliderAct.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 173px; left: 1059px}
+i.slider1       { background: url("img/slider.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 197px; left: 1059px}
+i.slider2       { background: url("img/slider.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 221px; left: 1059px}
+i.slider3       { background: url("img/slider.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 245px; left: 1059px}
+i.slider4       { background: url("img/slider.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 270px; left: 1059px}
+
+.main  p        { padding-bottom: 55px; font-family:GothamMedium; color: #333333; font-size: 14px; font-weight: normal; margin: 0 }
+.paragraph      { width: 569px; margin-left: 188px; margin-top: 63px; float: left}
+
+
+.artInf         { height: 360px; width: 259px; background-image: url("img/MainArtBG.png"); float: right; position: relative; margin-top: 68px; margin-right: 5px}
+.artInf img     { margin-left: 67px}
+.artInf h4      { font-family: WisdomScript; font-size: 24px; color: #ffffff; margin: 0; margin-left: 84px;  padding-top: 16px; padding-bottom: 8px}
+.artInf h5      { font-family: WisdomScript; font-size: 20px; color: #ffffff; margin: 0; text-align: center }
+.artInf span    { font-family: Georgia; font-style: italic; font-size: 14px; color: #717171; text-align: center; }
+
+span#Bobby      { color: #717171;  font-family: WisdomScript; font-size: 16px; margin-top: 20px; }
+span#Droopy     { color: #717171;  font-family: WisdomScript; font-size: 20px; }
+
+.schedule a     { text-decoration: none; font-family: Georgia; font-style: italic; font-size: 14px; color: #717171;
+                   text-align: center; display: block; padding-top: 3px }
+.schedule a:hover   { color: #fefefe}
+.schedule       { background: url("img/scheduleBG.png") no-repeat; width: 101px; height: 25px; display: inline-block; margin-top: 5px; margin-left: 18px; margin-right: 15px }
+.schedule:hover  { background: url("img/scheduleBGAct.png") no-repeat; }
+.contact        { display: inline-block; position: relative}
+.contact i       { background: url("img/MSGicon.png") no-repeat; height: 39px; width: 39px; position: absolute; top: -8px; left: 55px}
+.contact i:hover { background: url("img/MSGiconAct.png") no-repeat; }
+i.line          { background: url("img/artInfLines.png") no-repeat; width: 52px; height: 3px; position: absolute; top: 276px; left:104px }
+
+
+
+/*Footer*/
+footer          { background: url("img/footerBG.png") repeat-x; padding-left: 200px; height: 187px; clear: both; position: relative}
+footer div      { float: left; }
+footer h4       { font-family: WisdomScript; font-size: 26px; color: #333333; margin-top: 0; margin-bottom:27px; padding-top: 23px }
+dl              { font-family: Georgia; font-style:  italic; font-size: 18px; color: #333333;}
+dt, dd          { display: inline; margin: 0}
+dd              { padding-left: 5px}
+.cont           { margin-right: 75px}
+
+
+.wings          { margin-top: 19px; margin-right: 193px; background: url("img/followBG.png") no-repeat; width: 156px; height: 156px}
+.wings:hover    { background: url("img/followBGAct.png") no-repeat;}
+.wings a        { font-family: WisdomScript; font-size: 24px; color: #ffffff; display: inline-block; text-align: center;
+                  text-decoration: none; margin-left: 4px; margin-top: 42px; width: 143px}
+.wings:before   { content:""; position:absolute; width: 136px; height: 74px; background: url("img/leftwing.png") no-repeat -2px 0;
+    top: 11px; left: 400px}
+
+.wings:after   { content:""; position:absolute; width: 136px; height: 74px; background: url("img/rightwing.png") no-repeat -2px 0;
+    top: 11px; left: 666px}
+.follow a      { margin-right: 10px}
+a.FBFooter      { background: url("img/FBFooter.png")no-repeat; width: 51px; height: 48px; display: inline-block; position: relative;}
+a.FBFooter:hover    { background: url("img/FBFooterAct.png") no-repeat}
+a.twFooter          { background: url("img/twFooter.png") no-repeat; width: 51px; height: 48px; display: inline-block; position: relative;}
+a.twFooter:hover    { background: url("img/twFooterAct.png")no-repeat}

@@ -1,0 +1,24 @@
+.main           { padding: 55px 137px; position: relative}
+img.threeStars  { display: inline-block}
+.main h3        { font-family: WisdomScript; font-weight: normal; font-size: 20px; color: #333333; margin: 0 13px 48px; width: 529px;  display: inline-block; text-align: center}
+
+
+.works img     { max-width: 230px; float: left; padding: 1px; height: 193px}
+
+img.oneStar     { display: block; width: 122px; margin: auto; padding: 20px 0}
+
+
+
+.artWorksInfo       { position: relative}
+.artistInfo         { background-image: url("img/rectangle.png"); width: 312px; height: 312px; position: absolute; left: 716px; top: 39px }
+.artistInfo h5      {  font-family: WisdomScript; font-weight: normal; font-size: 16px; color: #ffffff; text-align: center; margin: 0; padding: 0  }
+.artistInfo img     {  margin-left: 97px; margin-top: 49px}
+.artistInfo span    { font-family: Georgia; font-style: italic; font-size: 14px; color: #717171; text-align: center; margin-top: 15px}
+.artistInfo i       { background: url("img/MSGicon.png") no-repeat; height: 39px; width: 39px; position: absolute; top: 250px; left: 138px}
+.artistInfo i:hover { background: url("img/MSGiconAct.png") no-repeat; }
+
+
+
+
+
+header          { background: url("img/headerBGGal.png") repeat-x; height: 206px; position: relative; z-index: 3 }

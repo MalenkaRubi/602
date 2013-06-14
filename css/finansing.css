@@ -1,0 +1,10 @@
+
+.main img       {  margin: 25px 0 68px  146px}
+.main  p        { padding-bottom: 55px; font-family:GothamMedium; color: #333333; font-size: 14px; font-weight: normal; margin: 0 }
+.paragraph      { width: 583px; margin-left: 188px}
+
+
+
+
+
+header          { background: url("img/HeaderBGFin.png")repeat-x; height: 206px; position: relative; z-index: 3 }
