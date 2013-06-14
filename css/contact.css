@@ -1,0 +1,33 @@
+/*Main*/
+.main img       { margin-left: 134px; margin-top: 25px}
+.form           { float: left; margin: 10px 134px 0 184px;  }
+.QRcode         { float: left; margin-top: 40px}
+.QRcode img     { margin: 0}
+
+.contForm       { background: url("img/FORMbg.png") repeat;  padding: 20px }
+
+input           { display: block; width: 237px; height: 29px; margin-bottom: 17px; border-radius: 5px; background: url("img/mainBG.png" );
+                    font-family: gothammedium ; font-size: 14px; color: #404040; padding-left: 12px;  border-top: 2px #aba9a7 solid;
+                    border-bottom: none; border-left:none; border-right: none   }
+textarea        { border-radius: 5px; background: url("img/mainBG.png"); height:118px; width: 354px; border: none; margin-bottom: 25px;
+                    font-family: gothammedium ; font-size: 14px; color: #404040; padding-left: 12px; padding-top: 13px;
+                    border-top: 2px #aba9a7 solid;  border-bottom: none; border-left:none; border-right: none}
+input.mailInput      { width: 354px; }
+
+
+
+
+.mail           { margin-bottom: 67px }
+.address        { margin-bottom: 40px}
+
+
+
+button          {  background-image: url("img/buttonBG.png"); border: none; float: right;  width: 73px; height: 33px;
+                    border-radius: 5px; margin-top: 10px;}
+button:hover    { background-image: url("img/buttonAct.png"); }
+
+
+
+
+
+header          { background: url("img/headerBG.png") repeat-x; height: 206px; position: relative; z-index: 3 }

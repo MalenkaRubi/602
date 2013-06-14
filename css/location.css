@@ -1,0 +1,19 @@
+img.welcome     { margin-left: 188px; margin-top: 43px}
+.main h5        { font-family: Verdana; font-size: 24px; color: #333333; text-align: center; margin-bottom: 35px; margin-top: 0 }
+i.arrowLf       { background: url("img/leftArrow.png") no-repeat; width: 24px; height: 13px; position: absolute; top: 117px; left: 478px}
+i.arrowRt       { background: url("img/rtArrow.png") no-repeat; width: 24px; height: 13px;  position: absolute; top: 117px; left: 705px}
+
+
+.map            { float: left;  margin: 79px 0 73px 139px}
+.equipment      {float: right; width: 452px; margin-top: 77px; margin-right: 121px}
+.equipment img  { float: left; max-width: 222px; padding: 2px}
+
+i.sliderAct     { background: url("img/sliderAct.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 355px; left: 1059px}
+i.slider1       { background: url("img/slider.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 378px; left: 1059px}
+i.slider2       { background: url("img/slider.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 401px; left: 1059px}
+i.slider3       { background: url("img/slider.png") no-repeat; width: 22px; height: 22px; position: absolute; top: 424px; left: 1059px}
+
+
+
+
+header          { background: url("img/headerBGLoc.png") repeat-x ; height: 206px; position: relative; z-index: 3 }

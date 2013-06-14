@@ -1,0 +1,82 @@
+body {background: url("img/bodyBG.png") repeat }
+
+@font-face {
+    font-family: HelveticaNeueLightItalic;
+    src: url(fonts/HelveticaNeue/HelveticaNeueLightItalic.ttf);
+}
+@font-face {
+    font-family: WisdomScript;
+    src: url(fonts/WisdomScript/WisdomScript/WisdomScript.ttf);
+}
+@font-face {
+    font-family:GothamMedium;
+    src: url(fonts/GothamMedium.ttf);
+}
+@font-face {
+    font-family:Verdana;
+    src: url(fonts/Verdana/verdana.ttf);
+}
+
+
+
+
+.wrapper { width: 1203px; margin: auto; background: url("img/wrapperBG.png") repeat; position: relative; }
+
+/*Header*/
+
+.logo           { margin: 40px 0 23px 184px }
+nav              { float: right; margin-top:50px; margin-right: 125px }
+.logIn          { margin-left: 333px}
+.logIn a        { font-family: helvetica; font-size:  18px ; color: #ff6633; font-style: italic; text-decoration: none}
+.logIn a:hover  { text-decoration: underline}
+
+.menu           { margin-top: 12px}
+.menu a         { font-family: WisdomScript; font-size: 26px; color: #333333; text-decoration: none; margin-right: 20px }
+.menu a:hover   { color: #999999}
+a.last          { margin-right:0; padding-right: 0 }
+a.active        { color:#ff6633 }
+a.active:hover  { color:#ff6633}
+a.FB            { background: url("img/FB.png"); width: 38px; height: 38px; display: inline-block; position: relative; top:13px; height: 37px; margin-left: 10px}
+a.FB:hover      { background: url("img/FBAct.png");}
+a.tw            { background: url("img/tw.png"); width: 38px; height: 39px; display: inline-block; position: relative; top:13px; height: 37px; margin-left: 5px }
+a.tw:hover      { background: url("img/twAct.png"); }
+
+
+header:after  {  content:"";  position:absolute; z-index: 2; background: url("img/shadow2.png") no-repeat; width:950px; height: 22px; top: 197px ; left: 129px;
+                }
+
+
+ /*Main*/
+
+
+.main           { background: url("img/FinansingMainBG.png") repeat; overflow: hidden; padding-bottom: 50px; position: relative; z-index: 1}
+.main h4        { font-family:GothamMedium; color: #ff6633; font-size: 21px; margin: 0; padding-bottom: 18px}
+.main span      { font-family: Georgia; font-style:  italic; font-size: 18px; color: #333333; display: block}
+
+
+
+
+/*Footer*/
+footer          { background: url("img/footerBG.png") repeat-x; padding-left: 200px; height: 187px; clear: both; position: relative}
+footer div      { float: left; }
+footer h4       { font-family: WisdomScript; font-size: 26px; color: #333333; margin-top: 0; margin-bottom:27px; padding-top: 23px }
+dl              { font-family: Georgia; font-style:  italic; font-size: 18px; color: #333333;}
+dt, dd          { display: inline; margin: 0}
+dd              { padding-left: 5px}
+.cont           { margin-right: 75px}
+
+
+.wings          { margin-top: 19px; margin-right: 193px; background: url("img/followBG.png") no-repeat; width: 156px; height: 156px}
+.wings:hover    { background: url("img/followBGAct.png") no-repeat;}
+.wings a        { font-family: WisdomScript; font-size: 24px; color: #ffffff; display: inline-block; text-align: center;
+                    text-decoration: none; margin-left: 4px; margin-top: 42px; width: 143px}
+.wings:before   { content:""; position:absolute; width: 136px; height: 74px; background: url("img/leftwing.png") no-repeat -2px 0;
+                 top: 11px; left: 400px}
+
+.wings:after   { content:""; position:absolute; width: 136px; height: 74px; background: url("img/rightwing.png") no-repeat -2px 0;
+                 top: 11px; left: 666px}
+.follow a      { margin-right: 10px}
+a.FBFooter      { background: url("img/FBFooter.png")no-repeat; width: 50px; height: 46px; display: inline-block; position: relative;}
+a.FBFooter:hover    { background: url("img/FBFooterAct.png") no-repeat}
+a.twFooter          { background: url("img/twFooter.png") no-repeat; width: 51px; height: 48px; display: inline-block; position: relative;}
+a.twFooter:hover    { background: url("img/twFooterAct.png")no-repeat}
